@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+/* The astrid represents everything, margin 0 gets rid of extra spacing */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #00aeff;
+  color: #00ff38;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 24px;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: coral;
+}
+
+a:active {
+    color: orange;
+}
+
+a:visited {
+  color: none;
+}
+
+iframe {
+  /* good practice to use percent for width and vh for height */
+  width: 100%;
+  height: 40vh;
+}
+
+.links {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.5em;
+  color: purple;
+}
+
+/* .links is the div tag and a is a tag in the div tag */
+.links a {
+  color: #3700ff;
+}
+
+.links a:hover {
+  color: coral;
+}
+
+.links a:active {
+  color: orange;
+}
+
+.buttonLink {
+  background-color: #008365;
+  border-radius: 4px;
+  font-size: 1.0em;
+  font-family: 'Orbitron';
+}
+
+button:hover {
+  background-color: #00bd92;
+}
+
+button:active {
+  background-color: #00ff38;
+}
+
+#instagram {
+  color: rgb(12, 23, 74);
+  text-align: center;
+  margin: 0 auto;
+}
+
+.gallery {
+  margin-top: 20px;
+}
