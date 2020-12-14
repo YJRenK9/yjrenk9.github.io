@@ -83,6 +83,15 @@ button:active {
   margin: 0 auto;
 }
 
+#boldifier {
+  font-size: 25px;
+  font-weight: bold;
+}
+
 .gallery {
   margin-top: 20px;
+}
+
+.dma_statement {
+  text-align: left;
 }
