@@ -7,12 +7,13 @@
 }
 
 body {
-  background-color: #00aeff;
+  background-color: #051DB5;
   color: #00ff38;
   font-family: 'Orbitron', sans-serif;
   font-size: 24px;
   padding: 20px;
   text-align: center;
+  /*Honolulu Blue: #0076B6*/
 }
 
 h1 {
@@ -20,7 +21,7 @@ h1 {
 }
 
 a {
-  color: blue;
+  color: #00aeff;
   text-decoration: none;
 }
 
@@ -51,7 +52,7 @@ iframe {
 
 /* .links is the div tag and a is a tag in the div tag */
 .links a {
-  color: #3700ff;
+  color: #00aeff;
 }
 
 .links a:hover {
