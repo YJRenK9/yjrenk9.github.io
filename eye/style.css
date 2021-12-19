@@ -2,6 +2,18 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
+/* Why no work? Because that's not the global CSS file */
+/* #frameC {
+  width: 1000px;
+  height: 1000px;
+}
+
+#frameCC {
+  width: 500px;
+  height: 500px;
+} */
+
 canvas {
   display: block;
 }

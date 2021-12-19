@@ -21,7 +21,7 @@ h1 {
 }
 
 a {
-  color: #00aeff;
+  color: #00EFFF;
   text-decoration: none;
 }
 
@@ -52,7 +52,7 @@ iframe {
 
 /* .links is the div tag and a is a tag in the div tag */
 .links a {
-  color: #00aeff;
+  color: #00EFFF;
 }
 
 .links a:hover {
@@ -87,6 +87,10 @@ button:active {
 #boldifier {
   font-size: 25px;
   font-weight: bold;
+}
+
+.pLeft {
+  text-align: left;
 }
 
 .gallery {

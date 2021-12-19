@@ -1,3 +1,5 @@
 go to link, and then ctrl + a to select and then ctrl + c to copy.  Paste code to Atom in a new project.  Save it as three.min.js in js folder.  Do the same process with the second link, but name it Detector.js in the js folder.  
 
 for sketchfab, <div> </div>
+
+My DMA Website Portfolio Link: https://joodanre.github.io/
