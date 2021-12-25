@@ -88,6 +88,11 @@ button:active {
   font-size: 25px;
   font-weight: bold;
 }
+/* to actually modify the frame of the sketchfab div */
+#sew {
+  width: 100%;
+  height: 80vh;
+}
 
 .pLeft {
   text-align: left;
