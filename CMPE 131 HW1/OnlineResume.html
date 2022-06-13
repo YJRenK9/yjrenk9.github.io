@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jordan Le's Online Resume</title>
+  <link rel="stylesheet", href="ResumeWebPage.css">
+</head>
+<body id="mainBody">
+  <h1>Jordan Le</h1>
+  <h2>Welcome to my Online Resume</h2>
+    <p>SJSU</p>
+    <p>4th Year Student</p>
+    <p>Computer Engineering Major</p>
+    <p>Studio Art Minor</p>
+  <!-- image is 50% smaller (2 times smaller than the original size) -->
+  <img src="Images/Jordan Le 2017.jpg", alt="Jordan Le's High School Graduation Picture", width = "472", height = "584" />
+  <h3>Short Biography</h3>
+    <p>
+      Hello there, my name is Jordan Le.  I am a Computer Engineering Major with a Studio Art Minor.
+      But, you can think of me as a Software Engineering student who's minoring in Digital Media Art.
+      I have a goal to become a software engineer. I am willing to do what it takes to reach my goal.
+      I choose this career because I believe I can create things and make life better for people.
+      Before going to university, I had some prior programming and digital art experiences.  Most of that came from learning the skills outside of school.
+      As I progress through SJSU, I learned Object-Oriented Programming and Data Structures.
+      Java and C++ are the programming languages I studied the most as an SJSU student.
+      I also learned more about HTML/CSS when taking a Digital Media Art class.
+      I figured this was something I genuinely enjoy doing for my career. It became my passion.
+      I realized how software applies to two things: technical and artistic.
+      With that, the possibilities of using computer software can be endless.
+    </p>
+    
+  <h3>Video</h3>
+    <video width="750", height="696" controls>
+      <source src="CMPE 131 Interview Speech.mp4" type="video/mp4">
+    </video>
+  <h3>Education and Experience</h3>
+    <p>
+      College/University: San Jose State University (Fall 2017 - Present) <br>
+      High School: Henry J. Kaiser High School (August 2013 - May 2017), 3.7 GPA (Magna Cum Laude) <br>
+      Volunteer Experience: Leo Club (August 2014 - May 2017) <br>
+      School Sport: Kaiser High Swim Team (August 2014 - May 2016)
+    </p>
+  <h4>My SJSU Transcript</h4>
+    <button type="button", onclick="promptBox()">SJSU Transcript</button>
+    <div class="popupPrompt", id="passwordPopup", style="display:none">
+      <p id="enterPassword">Please enter the password: </p>
+      <form id="passEntry", onsubmit="promptPassword()">
+        <input type="password", id="passwordPlease", name="passwordPlease" value="", placeholder="password">
+        <br>
+        <!-- <input type="button" name="" id="passwordButton" value="Enter" onclick="promptPassword()"> -->
+        <input type="submit">
+      </form>
+    </div>
+  <h4>My Projects</h4>
+    <select id="Project">
+      <option value="Unselected Project">Select Project</option>
+      <option value="Project1.html">Project 1</option>
+      <option value="Project2.html">Project 2</option>
+      <option value="Project3.html">Project 3</option>
+      <option value="Project4.html">Project 4</option>
+      <option value="Project5.html">Project 5</option>
+    </select>
+    <br>
+    <a href="../index.html">My Digital Media Art Website Portfolio</a>
+  <h3>Contact Info</h3>
+    <p>
+      Email: jordan.le@sjsu.edu
+      <br>
+
+    </p>
+    <script src="CMPE 131 Script.js"></script>
+</body>
+</html>
