@@ -138,6 +138,10 @@ button:active {
   margin-top:12px;
 }
 
+#glitchWall {
+  background-image: url(../media/GlitchBackground.png);
+}
+
 .WPBlog {
   text-align: left;
   margin-left: 12.5%;
