@@ -118,6 +118,11 @@ button:active {
   text-align: center;
 }
 
+.flexGallery {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .leftColumn {
   float: left;
   margin: auto;
