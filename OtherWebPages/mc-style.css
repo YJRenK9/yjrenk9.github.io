@@ -1,0 +1,58 @@
+/* minecraft font is ready to be used */
+@import url("https://fontlibrary.org//face/minecraftia");
+
+/* changes the backgroud to a dirt block texture */
+/* anywhere on the webpage will now have the minecraft font */
+body {
+    background-image: url(mc-images/dirt_background.jpg);
+    font-family: 'MinecraftiaRegular';
+}
+
+/* header 1 is positioned at the center and its text color is white */
+h1 {
+    color:white;
+    text-align: center;
+}
+
+/* Join 2 tags together to have the same styling (and write less code) */
+h2, h3 {
+    color: white;
+}
+
+/* Join 2 tags together to have the same styling (and write less code) */
+pre {
+    color:white;
+    font-family: 'MinecraftiaRegular';
+    font-size: larger;
+}
+
+/* centers text and images */
+.centerElements {
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row; */
+    display: block;
+    text-align: center;
+
+    /* when margin-left and margin-right are set to auto, they'll make some elements positioned at the center */
+    /* this is because both margin-left and margin-right are pushing to the right and to the left, making the image at the center */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* makes a link look like a minecraft button with green text positioned at the center */
+a {
+    text-align: center;
+    background-color: gray;
+    color: rgb(0, 255, 0);
+    font-size: 21px;
+
+    /* removes underline of links */
+    text-decoration: none;
+}
+
+
+
+
+
